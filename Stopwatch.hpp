@@ -1,6 +1,6 @@
 /*
 	Daniel Graves
-	Stopwatch.cpp
+	Stopwatch.hpp
 */
 
 #include <chrono>
