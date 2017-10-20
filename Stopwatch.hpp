@@ -60,6 +60,7 @@ void Stopwatch::set(float value)
 void Stopwatch::reset()
 {
 	reading = 0.0;
+	last_start = std::chrono::system_clock::now();
 }
 
 float Stopwatch::read() const
