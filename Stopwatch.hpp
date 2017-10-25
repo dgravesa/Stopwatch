@@ -55,6 +55,7 @@ void Stopwatch::stop()
 void Stopwatch::set(float value)
 {
 	reading = value;
+	last_start = std::chrono::system_clock::now();
 }
 
 void Stopwatch::reset()
